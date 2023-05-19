@@ -1,0 +1,313 @@
+    header {
+        background-image: url(https://i.gifer.com/Ozs.gif);
+        background-repeat: no-repeat;
+        background-size: cover;
+        color:aliceblue;
+        padding: 4px;
+    }
+
+    header h1{
+        color:rgb(3, 179, 167);
+        margin-left: 27px;
+    }
+
+    nav ul li {
+        display: inline-block;
+        margin-right: 20px;
+      }
+
+    nav ul li a{
+        color: antiquewhite;
+        size: 14;
+      }
+
+    body {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-image: url(https://media.tenor.com/IQMWG01MOvwAAAAC/night-city.gif);
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 100vh;
+        
+    }
+
+    footer {
+        padding: 10px;
+        background-image: url(https://i.gifer.com/Ozs.gif);
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: #fff;
+        text-align: center;
+        position: sticky;
+        top: 100%;
+    }
+
+
+    main {
+            flex: 1;
+            max-width: 800px;
+            margin: 40px auto;
+            min-height: 280px;
+            padding: 20px;
+            background-color:rgb(214, 214, 214);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    img{
+        max-width: 100%;
+        max-height: 100%;
+    }
+    .picture {
+            float:left;
+            width: 170px;
+            border: 1px solid rgb(214, 214, 214);
+            padding: 10px;
+            box-sizing: border-box;
+    }
+
+    img {
+        margin-top: 40px;
+        
+    }
+
+    .block{
+            float: right;
+            width: 600px;
+            border: 1px solid rgb(18, 18, 19);
+            padding: 10px;
+            box-sizing: border-box;
+    }
+
+    .block h3{
+        text-align: center;
+    }
+
+    .block p{
+        padding: 5px
+    }
+    
+    .aboutme{
+        margin-top: 100px;
+        margin-left: auto;
+    }
+
+    .aboutmepicture1 img{
+        margin-left: 340px;
+        height: 200px;
+        width: 600px;
+    }
+
+    .aboutme h2{
+        color:aliceblue;
+    }
+    
+    .aboutme p{
+        font-style: italic;
+        color:aliceblue;
+        text-align: justify;
+        padding: 20px;
+        margin-top: 50px;
+        margin-left: 320px;
+        width: 600px;
+        border: 1px solid rgb(18, 18, 19);
+        background-color: rgb(36, 35, 35);
+    }
+
+    .education {
+            width: 700px;
+            padding:20px;
+            margin-top: 50px;
+            margin-left: 300px;
+            margin-bottom: 20px;
+            box-sizing: border-box;
+            border: 1px solid rgb(18, 18, 19);
+            background-color: rgb(36, 35, 35);  
+    }
+
+    .education h2{
+        color:aliceblue;
+        margin-top: 0px;
+        text-align: center;
+    }
+
+    .education ul{
+        margin-top: 5px;
+    }
+
+    .education p{
+        font-size: 20;
+        color: aliceblue;
+        font-family: monospace;
+    }
+
+    .education ul li{
+        color:aliceblue;
+        font-family: monospace;
+    } 
+
+
+    .row {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: row;
+    }
+
+    .row img{
+        margin-top: 10px;
+        width: 400px;
+        height: 300px;
+        margin-bottom: 30px;
+    }
+
+    .skillspicture img{
+        margin-left: 330px;
+    }
+
+    .skills {
+        width: 700px;
+        padding:20px;
+        margin-top: 50px;
+        margin-left: 300px;
+        margin-bottom: 20px;
+        box-sizing: border-box;
+        border: 1px solid rgb(18, 18, 19);
+        background-color: rgb(36, 35, 35); 
+    }
+
+
+    .skills h2{
+        color:aliceblue;
+        text-align: center;
+    }
+
+    .skills p{
+        font-family: cursive;
+        color:aliceblue;
+        text-align: justify;
+    }
+
+    .resume {
+        min-height: 100px;
+        width: 500px;
+        padding: 20px;
+        margin-left: 400px;
+        margin-bottom: 20px;
+        box-sizing: border-box;
+        border: 1px solid rgb(18, 18, 19);
+        background-color: rgb(36, 35, 35);
+    }
+
+    .resume img{
+        width: 200px;
+        margin-left: 130px;
+        border: 1px solid rgb(18, 18, 19);
+        background-color: rgb(36, 35, 35);
+        
+    }
+
+    .resume h2{
+        font-family: cursive;
+        color: aliceblue;
+
+    }
+    
+    .resume p{
+        color:aliceblue;
+    }
+
+    .resume ul li{
+        font-family: monospace  ;
+        color:aliceblue;
+    }
+
+    .resumedownload{
+        margin-left: 400px;
+    }
+
+    .resumedownload h1{
+        color: rgb(200, 216, 230);
+    }
+
+    .resumedownload h1 a{
+        color: violet;
+    }
+
+
+    .contactme{
+        flex: 1;
+        max-width: 610px;
+        margin: 40px auto;
+        min-height: 280px;
+        padding: 20px;
+        background-image: url(https://i.gifer.com/Ozs.gif);
+        background-repeat: no-repeat;
+        background-size: cover;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+
+    }
+
+    .contactme h1{
+        font-size: 25;
+        font-family: monospace;
+        text-align: center;
+        color:aliceblue
+    }
+
+    .contactme ul li img{
+        margin-top: 5px;
+        width: 100px;
+
+    }
+
+    .contactme ul li{
+        margin-left: 20px;
+        font-size: 12;
+        color: aliceblue;
+        display: inline;
+        padding: 20px;
+    }
+    .container {
+        flex: 1;
+        max-width: 200px;
+        margin: 40px auto;
+        min-height: 280px;
+        padding: 20px;
+        background-image: url(https://i.gifer.com/Ozs.gif);
+        background-repeat: no-repeat;
+        background-size: cover;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+
+    }
+    
+    .container h1{
+        font-size: 20;
+        color: aliceblue;
+        text-align: center;
+    }
+
+    .container h4{
+        font-size: 20;
+        color: aliceblue;
+        text-align: center;
+    }
+
+    ul li{
+        text-align: left;
+    }
+
+    h1{
+        margin-left: 5px;
+    }
+
+    h2{
+        text-align: center;
+    }
+    
+    p{
+        padding: 20px;
+        text-align: center;
+    }
