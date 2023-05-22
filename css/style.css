@@ -4,6 +4,9 @@
         background-size: cover;
         color:aliceblue;
         padding: 4px;
+        position: sticky;
+        top: 0%;
+        
     }
 
     header h1{
@@ -12,6 +15,10 @@
         margin-left: 27px;
     }
 
+    nav {
+        position: sticky;
+        top: 15%;
+    }
     nav ul li {
         display: inline-block;
         margin-right: 20px;
@@ -23,14 +30,10 @@
       }
 
     body {
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        margin: 0;
-        padding: 0;
-        background-image: url(https://media.tenor.com/IQMWG01MOvwAAAAC/night-city.gif);
+        position: relative;
+        background-image: url(https://i.pinimg.com/originals/40/49/8b/40498b985d9706170045b3baf332ece8.jpg);
         background-repeat: no-repeat;
-        background-size: cover;
-        min-height: 100vh;
-        
+        background-size: cover;        
     }
 
     footer {
@@ -46,32 +49,23 @@
 
 
     main {
-            flex: 1;
-            max-width: 800px;
-            margin: 40px auto;
-            min-height: 280px;
-            padding: 20px;
-            background-color:rgb(214, 214, 214);
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-            border-radius: 10px;
+        position: absolute;
+        top: 25%;
+        left: 30%;
+        max-width: 700px;
+        min-height: 200px;
+        padding: 20px;
+        background-color:rgb(214, 214, 214);
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
     }
 
     img{
         max-width: 100%;
         max-height: 100%;
     }
-    .picture {
-            float:left;
-            width: 170px;
-            border: 1px solid rgb(214, 214, 214);
-            padding: 10px;
-            box-sizing: border-box;
-    }
+    
 
-    img {
-        margin-top: 40px;
-        
-    }
 
     .block{
             float: right;
@@ -91,13 +85,15 @@
     
     .aboutme{
         margin-top: 100px;
-        margin-left: auto;
+        
     }
 
-    .aboutmepicture1 img{
-        margin-left: 340px;
-        height: 200px;
-        width: 600px;
+    img {
+        flex: 1;
+        align-items: center;
+        width: 300px;
+        
+        height: 100px;
     }
 
     .aboutme h2{
@@ -109,8 +105,8 @@
         color:aliceblue;
         text-align: justify;
         padding: 20px;
-        margin-top: 50px;
-        margin-left: 320px;
+        flex: 1;
+        margin: 40px auto;
         width: 600px;
         border: 1px solid rgb(18, 18, 19);
         background-color: rgb(36, 35, 35);
@@ -119,8 +115,8 @@
     .education {
             width: 700px;
             padding:20px;
-            margin-top: 50px;
-            margin-left: 300px;
+            flex: 1;
+            margin: 40px auto;
             margin-bottom: 20px;
             box-sizing: border-box;
             border: 1px solid rgb(18, 18, 19);
@@ -163,15 +159,13 @@
         margin-bottom: 30px;
     }
 
-    .skillspicture img{
-        margin-left: 330px;
-    }
+
 
     .skills {
         width: 700px;
         padding:20px;
-        margin-top: 50px;
-        margin-left: 300px;
+        flex: 1;
+        margin: 40px auto;
         margin-bottom: 20px;
         box-sizing: border-box;
         border: 1px solid rgb(18, 18, 19);
@@ -194,7 +188,8 @@
         min-height: 100px;
         width: 500px;
         padding: 20px;
-        margin-left: 400px;
+        flex: 1;
+        margin: 40px auto;
         margin-bottom: 20px;
         box-sizing: border-box;
         border: 1px solid rgb(18, 18, 19);
@@ -210,6 +205,8 @@
     }
 
     .resume h2{
+        flex: 1;
+        margin: 40px auto;
         font-family: cursive;
         color: aliceblue;
 
@@ -225,11 +222,13 @@
     }
 
     .resumedownload{
-        margin-left: 400px;
+        flex: 1;
+        margin: 40px auto;
     }
 
     .resumedownload h1{
         color: rgb(200, 216, 230);
+        
     }
 
     .resumedownload h1 a{
@@ -239,17 +238,15 @@
 
     .contactme{
         flex: 1;
-        max-width: 610px;
-        margin: 40px auto;
-        min-height: 280px;
-        padding: 20px;
-        background-image: url(https://i.gifer.com/Ozs.gif);
-        background-repeat: no-repeat;
-        background-size: cover;
+        max-width: 300px;
+        margin: 2px auto;
+        height: 120px;
+        padding: 5px;
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         border-radius: 10px;
 
     }
+
 
     .contactme h1{
         font-size: 25;
@@ -260,7 +257,9 @@
 
     .contactme ul li img{
         margin-top: 5px;
-        width: 100px;
+        margin: 5px auto;
+        width: 30px;
+        height: 30px;
 
     }
 
@@ -269,15 +268,15 @@
         font-size: 12;
         color: aliceblue;
         display: inline;
-        padding: 20px;
+        padding: 10px;
     }
     .container {
         flex: 1;
-        max-width: 200px;
+        max-width: 370px;
         margin: 40px auto;
         min-height: 280px;
         padding: 20px;
-        background-image: url(https://i.gifer.com/Ozs.gif);
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXSN3cNmnNdef7ln5FgnJbeTRn_MmLgC_xhheP4bmEUg&s);
         background-repeat: no-repeat;
         background-size: cover;
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -297,6 +296,19 @@
         text-align: center;
     }
 
+    .container form input{
+        margin: 2px;
+    }
+
+    .container textarea{
+        width: 100%;
+        height: 59px;
+        padding: 15px;
+        border-radius: 5px;
+        outline: none;
+
+    }
+
     ul li{
         text-align: left;
     }
@@ -312,4 +324,23 @@
     p{
         padding: 20px;
         text-align: center;
+    }
+
+    @media screen and (max-width: 600px)
+    {
+        h2{
+            font-size: 36px;
+            line-height: 50px;
+        }
+        main {
+            position: absolute;
+            top: 25%;
+            left: 30%;
+            max-width: 50px;
+            line-height: 10px;
+            padding: 5x;
+            background-color:rgb(214, 214, 214);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 1px;
+        }
     }
